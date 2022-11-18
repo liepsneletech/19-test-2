@@ -1,0 +1,19 @@
+/* FONTS */
+
+/* CSS RESET */
+
+body,
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
