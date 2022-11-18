@@ -45,7 +45,13 @@ a {
   text-decoration: none;
 }
 
-.main-title,
-.section-title {
-  text-align: center;
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
 }
