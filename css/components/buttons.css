@@ -54,3 +54,15 @@
 .btn-dgray {
   border-radius: 11px;
 }
+
+.newsletter button {
+  border: none;
+  font-size: 20px;
+  padding: 1em 1em;
+  background-color: var(--black);
+}
+
+.newsletter button:hover {
+  background-color: var(--dgray);
+  color: var(--white);
+}
