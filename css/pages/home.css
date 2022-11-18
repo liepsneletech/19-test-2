@@ -37,12 +37,13 @@
 .hero-desc {
   max-width: 85%;
   font-size: 26px;
-  margin-bottom: 82px;
+  margin-bottom: 60px;
 }
 
 @media (min-width: 992px) {
   .hero-desc {
     max-width: 65%;
+    margin-bottom: 82px;
   }
 }
 
