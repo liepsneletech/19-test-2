@@ -29,7 +29,7 @@
 .btn-lgray {
   padding: 0.5em 1em;
   background-color: var(--lgray);
-  color: var(--white);
+  color: var(--black2);
   font-size: 32px;
 }
 
@@ -48,4 +48,9 @@
 .btn-dgray:hover {
   background-color: var(--black2);
   color: var(--white);
+}
+
+.btn-lgray,
+.btn-dgray {
+  border-radius: 11px;
 }

@@ -36,14 +36,17 @@
   }
 }
 
-.hero-btns {
+.hero-btns,
+.duk-btns {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 15px;
 }
 
 @media (min-width: 768px) {
-  .hero-btns {
+  .hero-btns,
+  .duk-btns {
     flex-direction: row;
   }
 }
@@ -52,6 +55,10 @@
 
 .container-choose-us-bg {
   background-color: var(--lgray);
+}
+
+.choose-us .section-title {
+  text-transform: initial;
 }
 
 .choose-us-grid {
@@ -101,6 +108,10 @@
   .duk-grid {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.duk-btns {
+  margin-top: 120px;
 }
 
 /* NEWSLETTER */
