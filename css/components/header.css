@@ -13,14 +13,24 @@
   gap: 50px;
 }
 
-.nav-logo {
-  font-size: 24px;
-  line-height: 29px;
+.nav-link {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: solid 1px var(--black);
 }
 
-.nav-link {
-  font-size: 20px;
-  line-height: 24px;
+.nav-link:hover {
+  color: var(--blue);
+  border-bottom-color: var(--blue);
+}
+
+.nav-link.nav-logo {
+  font-size: 24px;
+  line-height: 29px;
+  border-bottom: none;
+}
+
+.nav-link:hover {
 }
 
 .nav-logo,

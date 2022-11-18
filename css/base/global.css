@@ -5,6 +5,7 @@
   --white: #fff;
   --lgray: #f3f3f3;
   --dgray: #414141;
+  --blue: #235481;
 }
 
 /* FONTS */
@@ -62,6 +63,7 @@ h2 {
 h1,
 h2 {
   text-transform: uppercase;
+  text-align: center;
 }
 
 p {
