@@ -24,6 +24,16 @@
   margin-bottom: 120px;
 }
 
+.main-title {
+  font-size: 50px;
+}
+
+@media (min-width: 576px) {
+  .main-title {
+    font-size: 64px;
+  }
+}
+
 .hero-desc {
   max-width: 85%;
   font-size: 26px;
@@ -115,3 +125,13 @@
 }
 
 /* NEWSLETTER */
+
+.newsletter .section-title {
+  font-size: 32px;
+}
+
+@media (min-width: 576px) {
+  .newsletter .section-title {
+    font-size: 40px;
+  }
+}
