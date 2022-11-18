@@ -1,6 +1,16 @@
 /* STYLESHEET IMPORTS */
 
-@import '../base/global.css';
-@import '../base/layout.css';
+@import "../base/global.css";
+@import "../base/layout.css";
+
+/* FONTS */
+
+@font-face {
+}
 
 /* HOME */
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
