@@ -1,16 +1,35 @@
 /* STYLESHEET IMPORTS */
-
+/* base */
 @import "../base/global.css";
 @import "../base/layout.css";
+/* components */
+@import "../components/header.css";
+@import "../components/buttons.css";
+@import "../components/slider.css";
 
 /* HOME */
 
-.header {
-  padding-top: 48px;
-  padding-bottom: 37px;
+.hero {
+  min-height: 90vh;
+  background-image: url(../../assets/img/hero/hero-bg-jeans.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  text-align: center;
 }
 
-.main-nav {
+.hero-desc {
+  max-width: 65%;
+  font-size: 26px;
+  margin-bottom: 82px;
+}
+
+.hero-btns {
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
 }

@@ -1,6 +1,10 @@
 /* COLORS */
 :root {
-  --color: ;
+  --black: #000;
+  --black2: #141414;
+  --white: #fff;
+  --lgray: #f3f3f3;
+  --dgray: #414141;
 }
 
 /* FONTS */
@@ -48,10 +52,18 @@ a {
 h1 {
   font-size: 64px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 600;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 24px;
 }

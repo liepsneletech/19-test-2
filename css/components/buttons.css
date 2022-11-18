@@ -1,0 +1,51 @@
+.btn-black {
+  padding: 0.5em 1em;
+  background-color: var(--black2);
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-black:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.btn-white {
+  padding: 0.5em 1em;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.btn-white:hover {
+  padding: 0.5em 1em;
+  background-color: var(--black2);
+  color: var(--white);
+  font-size: 24px;
+}
+
+.btn-lgray {
+  padding: 0.5em 1em;
+  background-color: var(--lgray);
+  color: var(--white);
+  font-size: 32px;
+}
+
+.btn-lgray:hover {
+  background-color: var(--black2);
+  color: var(--white);
+}
+
+.btn-dgray {
+  padding: 0.5em 1em;
+  background-color: var(--dgray);
+  color: var(--white);
+  font-size: 32px;
+}
+
+.btn-dgray:hover {
+  background-color: var(--black2);
+  color: var(--white);
+}

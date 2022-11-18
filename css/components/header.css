@@ -1,0 +1,29 @@
+.header {
+  padding-top: 48px;
+  padding-bottom: 37px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.nav-link {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.nav-logo,
+.nav-link {
+  color: #000;
+}
