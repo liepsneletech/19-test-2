@@ -26,3 +26,8 @@
   align-items: flex-start;
   gap: 10px;
 }
+
+.footer.container {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
