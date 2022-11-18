@@ -2,18 +2,16 @@
 
 ## Project information
 
-Site publishes at: to be determined
+Site publishes at: [GitHub Pages](http://liepsneletech.github.io/19-test-2/)
 
-Design: to be determined
+Design: [Figma file](https://www.figma.com/file/ckVqD5CByyU7l2QwrNzuLJ/Untitled?node-id=0%3A1&t=8Lo53LBgfgLJbMHA-0)
 
 ## Project features
 
 - single-page
 - HTML
 - CSS
-- CSS3 Flexbox
-- main title line - pseudo element
-- icons
+- CSS3 Flexbox, Grid
 - media queries for responsive design
 
 ## Authors
