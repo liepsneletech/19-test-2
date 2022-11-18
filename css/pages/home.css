@@ -3,14 +3,12 @@
 @import "../base/global.css";
 @import "../base/layout.css";
 
-/* FONTS */
-
-@font-face {
-}
-
 /* HOME */
+
+.header {
+}
 
 .main-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
